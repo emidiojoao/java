@@ -3,11 +3,6 @@ package aula23_08;
 import java.util.Scanner;
 
 public class Ex03 {
-    
-    /* 
-    Desenvolva um algoritmo que receba dois valores numéricos (v 1 e v 2 e
-    apresente em tela o resultado de quatro operações matemáticas básicas entre
-    eles soma, subtração, divisão e multiplicação. */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
