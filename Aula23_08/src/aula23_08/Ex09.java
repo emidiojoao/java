@@ -14,5 +14,7 @@ public class Ex09 {
         
         int pontos = (pontuacao - lanterna) / 3;
         System.out.println("Para ultrapassar o primeiro colocado, o time lanterna deverá fazer: " + pontos + " vitórias.");
+
+        entrada.close();
     }
 }
