@@ -3,16 +3,6 @@ package aula23_08;
 import java.util.Scanner;
 
 public class Ex04 {
-
-    /* 4.
-    Escreva um programa que retorne o valor hora de um funcionário com base no
-    seu salário mensal e horas trabalhadas por mês
-    Três
-    variáveis
-    Valor hora
-    Salário mensal
-    Horas trabalhadas por mês
-     */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
