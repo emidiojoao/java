@@ -3,13 +3,6 @@ package aula23_08;
 import java.util.Scanner;
 
 public class Ex02 {
-
-    /* 
-    Desenvolva um algoritmo que simule a abertura de uma conta bancária cujo
-    saldo inicial é zero A seguir, simule um deposito de um valor qualquer e mostre o
-    saldo atual Depois disso, simule uma retirada(débito) qualquer e apresente o
-    saldo final 
-    */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
