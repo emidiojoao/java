@@ -15,7 +15,7 @@ public class Ex04 {
         while (!senha.equals(confirmacao)) {
 
             System.out.println("Senha incorreta. Tente novamente: ");
-            senha = entrada.next();
+            confirmacao = entrada.next();
         }
         System.out.println("Senha correta! Boas-vindas :)");
     }
