@@ -40,11 +40,11 @@ public class Aula07_tentava02 {
             
             for (int contadorNotas = 0; contadorNotas < 3; contadorNotas++) {
                 
-                System.out.println("Notas: " + alunosNotas[contadorTurma]);
+                System.out.println("Notas: " + alunosNotas[contadorAlunos]);
                 contadorTurma++;
             }
             
-            System.out.println("Média: " + alunosMedia[contadorAlunos]);
+            System.out.println("Média de notas: " + alunosMedia[contadorAlunos]);
             
             if (alunosMedia[contadorAlunos] >= 7) {
                 System.out.println("Classificação: APROVADO!");
