@@ -34,13 +34,16 @@ public class Aula07_tentava02 {
             //System.out.println("Aluno(a): " + alunosNomes[contadorAlunos] + " Média: " + alunosMedia[contadorAlunos]);
             somaNotas = 0;
         }
+        
+        // Leitura de alunos, notas, média e classificação:
+        contadorTurma = 0;
         for (int contadorAlunos = 0; contadorAlunos < alunosNomes.length; contadorAlunos++) {
 
             System.out.println("Aluno(a): " + alunosNomes[contadorAlunos]);
             
             for (int contadorNotas = 0; contadorNotas < 3; contadorNotas++) {
                 
-                System.out.println("Notas: " + alunosNotas[contadorAlunos]);
+                System.out.println("Notas: " + alunosNotas[contadorTurma]);
                 contadorTurma++;
             }
             
@@ -48,7 +51,7 @@ public class Aula07_tentava02 {
             
             if (alunosMedia[contadorAlunos] >= 7) {
                 System.out.println("Classificação: APROVADO!");
-            } else if (alunosMedia[contadorAlunos] <= 6 && alunosMedia[contadorAlunos] < 7) {
+            } else if (alunosMedia[contadorAlunos] >= 6 && alunosMedia[contadorAlunos] < 7) {
                 System.out.println("Classificação: EM EXAME!");
             } else {
                 System.out.println("Classificação: REPROVADO!");
